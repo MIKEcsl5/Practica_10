@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Cajero;
-
+import practica_10.KeyboardInput;
 /**
  *
  * @author Miguel
@@ -12,10 +12,14 @@ package Cajero;
 public class Cajero { //clase Cuenta
     public static void main(String[] args){
         Cuenta cuenta = new Cuenta();
-        cuenta.depositar(500);
+        KeyboardInput input = new KeyboardInput();
+        System.out.println("Ingrese el monto a depositar:");
+        int monto = input.readInteger();
+        cuenta.depositar(monto);
         try{
-            cuenta.retirar(300);
-            cuenta.retirar(300);
+            System.out.println("Ingrese el monto a retirar:");
+            monto = input.readInteger();
+            cuenta.retirar(monto);
         }catch (SaldoInsuficienteException ex){
             System.out.println("Saldo insuficiente");
         }

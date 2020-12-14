@@ -26,7 +26,7 @@ public class Cuenta {
     }
     
     public void retirar(double monto) throws SaldoInsuficienteException{
-        System.out.println("Retirando "+monto+" pesos");
+        System.out.println("Intentando retirar "+monto+" pesos");
         if (saldo < monto){
             throw new SaldoInsuficienteException();
         }else{
