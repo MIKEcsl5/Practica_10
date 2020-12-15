@@ -6,8 +6,8 @@
 package Cajero;
 
 /**
- *
- * @author Miguel
+ * Clase Saldo Insuficiente que hereda de la clase Exception y crear una Exception
+ * @author Equipo D
  */
 public class SaldoInsuficienteException extends Exception{
     SaldoInsuficienteException(){

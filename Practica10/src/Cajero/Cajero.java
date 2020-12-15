@@ -6,9 +6,9 @@
 package Cajero;
 import practica_10.KeyboardInput;
 /**
- *
- * @author Miguel
- */
+ * Clase Cajero
+ * @author Equipo D 
+*/
 public class Cajero { //clase Cuenta
     public static void main(String[] args){
         Cuenta cuenta = new Cuenta();

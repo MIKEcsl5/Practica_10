@@ -6,8 +6,8 @@
 package practica_10;
 
 /**
- *
- * @author Miguel
+ * Clase principal
+ * @author Equipo D
  */
 public class Practica_10 {
 
@@ -97,7 +97,13 @@ public class Practica_10 {
         } 
         
     }
-    
+    /**
+     * 
+     * @param a recibe dato tipo entero que sera el numerador de la division
+     * @param b recibe dato tipo entero que sera el denominador de la division
+     * @return retorna el resultado de la division a/b tipo entero
+     * @throws ArithmeticException
+     */
     public static int division(int a, int b) throws ArithmeticException{
         /*int c;
         try{
@@ -108,7 +114,13 @@ public class Practica_10 {
         } */
         return a/b;
     }
-    
+    /**
+     * 
+     * @param a recibe dato tipo entero que sera el numerador de la division
+     * @param b recibe dato tipo entero que sera el denominador de la division
+     * @return retorna el resultado de la division a/b tipo entero
+     * @throws ArithmeticException en caso de que el denominador sea cero
+     */
     public static int division2(int a, int b) throws ArithmeticException{
         if (b==0){
             throw new ArithmeticException();
