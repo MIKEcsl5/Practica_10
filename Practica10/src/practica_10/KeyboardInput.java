@@ -2,7 +2,7 @@
 package practica_10;
 import java.io.*;
 /**
- *
+ * clase KeyboardInput que nos permite introducir datos mediante el teclado al implementarla
  * @author Daniel Rojas
  */
 public class KeyboardInput {

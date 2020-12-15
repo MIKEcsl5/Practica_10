@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Cajero;
+package cajero;
 import practica_10.KeyboardInput;
 /**
- * Clase Cajero
+ * Clase principal del package cajero
  * @author Equipo D 
 */
 public class Cajero { //clase Cuenta

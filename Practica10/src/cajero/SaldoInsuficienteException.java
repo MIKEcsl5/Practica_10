@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Cajero;
+package cajero;
 
 /**
- * Clase Saldo Insuficiente que hereda de la clase Exception y crear una Exception
+ * Clase Saldo Insuficiente que hereda de la clase Exception
  * @author Equipo D
  */
 public class SaldoInsuficienteException extends Exception{

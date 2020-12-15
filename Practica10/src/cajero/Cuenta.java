@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Cajero;
+package cajero;
 
 /**
- * Clase Cuenta
+ * Clase Cuenta del package cajero
  * @author Equipo D
  */
 public class Cuenta {
@@ -35,7 +35,7 @@ public class Cuenta {
     /**
      * 
      * @param monto recibe un dato tipo double
-     * @throws SaldoInsuficienteException 
+     * @throws SaldoInsuficienteException en caso de que el saldo sea insuficiente
      */
     public void retirar(double monto) throws SaldoInsuficienteException{
         System.out.println("Intentando retirar "+monto+" pesos");

@@ -6,14 +6,11 @@
 package practica_10;
 
 /**
- * Clase principal
+ * Clase principal del package practica_10
  * @author Equipo D
  */
 public class Practica_10 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Actividad 1*****************");
@@ -80,8 +77,7 @@ public class Practica_10 {
         int division = division(8,0);
         System.out.println("Division = "+ division);
         */
-       
-       
+      
        System.out.println("\nActividad 5*******");
         try{
             KeyboardInput input = new KeyboardInput();
@@ -102,7 +98,7 @@ public class Practica_10 {
      * @param a recibe dato tipo entero que sera el numerador de la division
      * @param b recibe dato tipo entero que sera el denominador de la division
      * @return retorna el resultado de la division a/b tipo entero
-     * @throws ArithmeticException
+     * @throws ArithmeticException en caso de que el denominador sea cero
      */
     public static int division(int a, int b) throws ArithmeticException{
         /*int c;
